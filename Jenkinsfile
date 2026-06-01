@@ -12,7 +12,7 @@ pipeline {
 
         stage('Install Playwright Browser') {
             steps {
-                bat 'playwright install'
+                bat 'python -m playwright install'
             }
         }
 
